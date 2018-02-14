@@ -1,0 +1,50 @@
+@media screen and (max-width: 1000px) {
+    .color {
+        color:#6f1727 !important;
+    }
+    
+    .bgcolor {
+        background-color:#6f1727 !important;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .foto_ja {
+        float: none;
+        width: 70%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .projects {
+        display: none;
+    }
+        .skills {
+        margin-bottom: 20px;
+    }
+
+    .about_ikona_line_1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .skills_line_1 {
+        text-align: center;
+    }
+
+    .stars{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .header_line_1 {
+        font-size: 30px;
+    }
+    
+    .header_line_2 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,240 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* START wspólne */
+
+.color {
+    color:#8bae46 !important;
+}
+
+.bgcolor {
+    background-color:#8bae46 !important;
+}
+
+.headline {
+    background: url('../img/pasek.png') center center repeat-x;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color:#222;
+    padding: 20px 0px;
+}
+
+.headline span {
+    background: #fff;
+    padding: 0px 20px;
+}
+
+/* END wspólne */
+
+/* START header */
+.header {
+    height: 100vh;
+    background: url('../img/bg1.jpeg');
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+    padding-top: 60vh;
+}
+
+.header:before {
+    content:'';
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.header_line_1 {
+    text-align: center;
+    color:#efefef;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 25px #120303;
+}
+
+.header_line_2{
+    text-align: center;
+    color:#fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 25px #120303;
+}
+/* END header */
+/* START about */
+
+.about {
+    padding: 30px 0px;
+}
+
+.foto_ja {
+    width: 300px;
+    float: left;
+    margin-right: 10px ;
+}
+
+.about_line_1 {
+    display: block;
+    text-align: justify;
+    color: #555;
+    line-height: 1.8;
+}
+
+.about_ikona {
+    display:block;
+    margin: 25px 0px;
+    text-align:center;
+}
+
+.about_ikona .fa {
+    font-size: 60px;
+}
+
+.about_ikona_line_1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 22px 0px;
+    letter-spacing: 1px;
+}
+
+.about_ikona_line_2 {
+    font-size: 13px;
+    text-transform:uppercase;
+}
+/* END about */
+/* START skills */
+.skills {
+    padding: 20px 0px;
+    background: #f3f3f3; 
+}
+
+.skills .headline span {
+    background: #f3f3f3;
+}
+
+.skills_line_1 {
+    letter-spacing: 2px;
+    color: #666;
+    text-align: right;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.skills_ikona {
+    font-size: 30px;
+    text-align: center;
+    display:block;
+    color: #777;
+}
+
+.skills_star {
+    font-size: 22px;
+    line-height: 30px;
+    color: #666;
+}
+
+.skills_row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* END skills */
+
+/* START projects*/
+.projects {
+    padding: 20px 0px;
+}
+
+#carousel-example-generic2 .item{
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.project_description {
+    text-align: center;
+    padding-top: 10vh;
+    font-weight: bold;
+    color:#fff;
+    text-shadow: 0px 0px 15px #222;
+    font-size: 40px;
+}
+
+.project_description_btn {
+    display: block;
+    padding: 10px 0px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+    color:#fff !important;
+    border-radius: 15px 0px;
+    text-shadow: none;
+}
+
+/* END projects */
+
+/* START contact*/
+.contact {
+    background: #222;
+    padding: 20px 0px;
+}
+
+.contact .headline span {
+    background: #222;
+}
+
+.kontakt_box_all1 input, .kontakt_box_all1 textarea {
+    margin-top: 30px;
+    border: 0px;
+    outline: none !important;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 15px 0px;
+    background: #555;
+    color: #fff;
+}
+
+.error {
+    color: #a00;
+    text-align: right;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+.contact_btn {
+    width: 200px;
+    cursor: pointer;
+    margin: 20px auto;
+    border-radius: 15px 0px;
+    color: #444;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.kontakt_box_all2 {
+    padding: 100px 0px;
+    text-align: center;
+    display: none;
+}
+/* END contact */
+
+/*<!-- START footer --> */
+.footer {
+    color: #FFF;
+    background: #000;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+/*<!-- START footer --> */
